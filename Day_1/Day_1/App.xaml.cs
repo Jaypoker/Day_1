@@ -21,7 +21,6 @@ namespace Day_1
 		protected override void OnStart ()
 		{
             // Handle when your app starts
-            AppCenter.Start("4b68167c-5d6b-459d-8986-ab0ed7eeb146",typeof(Analytics), typeof(Crashes));
         }
 
 		protected override void OnSleep ()
